@@ -55,8 +55,12 @@ public class JavaApplication53 {
         System.out.println("Valor max del tipo double: " + Double.MAX_VALUE);
         
         System.out.println("\n\t****** CARACTERES ******");
-        char caracter = 'f';
-        System.out.println("\nCaracter de tipo char: " + caracter);
+        char caracter1 = 'f';
+        char caracter2 = '\u0021';
+        char caracter3 = 33;
+        System.out.println("\nCaracter de tipo char: " + caracter1);
+        System.out.println("\nCaracter de tipo char: " + caracter2);
+        System.out.println("\nCaracter de tipo char: " + caracter3);
         
         System.out.println("\n\t****** CADENA DE TEXTO ******");
         String cadena = "Hola mundo";
