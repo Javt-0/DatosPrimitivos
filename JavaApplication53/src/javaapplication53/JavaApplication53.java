@@ -11,15 +11,15 @@ public class JavaApplication53 {
     Enteros:
         - byte: 8 bits (-128 a 127) Byte.MIN_VALUE
         - short: 16 bits (-32768 a 32767) Short.MIN_VALUE - short.MAX_VALUE
-        - int: 
-        - long:
+        - int: 32 bits Integer.MIN_VALUE | Integer.MAX_VALUE
+        - long: 64 bits Long.MIN_VALUE | Long.MAX_VALUE
     
     Decimales: 
-        - float: 
-        - double: 
+        - float: 32 bits Float.MIN_VALUE | Float.MAX_VALUE
+        - double: 64 bits Double.MIN_VALUE | Double.MAX_VALUE
     
-    
-    
+    Caracteres: 
+        - char: 
     */
     public static void main(String[] args) {
         System.out.println("\t****** NUMEROS ENTEROS ******");
